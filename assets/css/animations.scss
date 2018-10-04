@@ -1,0 +1,44 @@
+@include keyframes(animaFadeIn){
+	0%{@include opacity(0);}
+	100%{@include opacity(1);}
+}
+
+@include keyframes(animaInDownToUp){
+	0%{@include opacity(0); @include transform(translateY(20px));}
+	100%{@include opacity(1); @include transform(translateY(0));}
+}
+
+@include keyframes(loopCircular){
+    from { @include transform(rotate(0deg)); }
+    to { @include transform(rotate(360deg)); }
+}
+
+@include keyframes(animaScaleIn){
+	0% {@include opacity(0); @include transform(scale(0.6));} 
+	100% {@include opacity(1); @include transform(scale(1));}
+}
+@include keyframes(animaScaleOut){
+	0% {@include opacity(1); @include transform(scale(1))}
+	100% {@include opacity(0); @include transform(scale(0.6))}
+}
+
+@include keyframes(animaInModal){
+	0% {@include opacity(0); pointer-events: none;}
+	100% {@include opacity(1); pointer-events: auto;}
+}
+@include keyframes(animaOutModal){
+	0% {@include opacity(1); pointer-events: auto;}
+	100% {@include opacity(0); pointer-events: none;}
+}
+
+@include keyframes(bounce) {
+	0%, 20%, 70%, 85%, 95% {
+    	@include transform(translateY(0));
+  	}
+	80% {
+    	@include transform(translateY(-10px));
+  	}
+	90% {
+    	@include transform(translateY(-5px));
+  	}
+}

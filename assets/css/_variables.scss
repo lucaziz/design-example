@@ -1,0 +1,36 @@
+/*  ---- FONTES ----*/
+@include font-face("Pacifico", "../fonts/pacifico", normal);
+@include font-face("Novecento", "../fonts/novecento", normal);
+
+@include font-face("Helvetica", "../fonts/helvetica-regular", normal);
+@include font-face("Helvetica", "../fonts/helvetica-medium", 600);
+@include font-face("Helvetica", "../fonts/helvetica-bold", bold);
+
+@include font-face("Myriad", "../fonts/myriad-regular", normal);
+@include font-face("Myriad", "../fonts/myriad-semibold", bold);
+
+$font: "Helvetica", "Arial"; 
+$font-novecento: "Novecento", "Arial";
+$font-pacifico: "Pacifico", "Arial";
+$font-myriad: "Myriad", "Arial";
+
+$cubic: cubic-bezier(0.4,0.1,0.25,1);
+
+/* COLORS */
+$color-primary:         #3498db;
+$color-secondary:       #d4d4d4;
+$color-darken-primary:  #0d74b9;
+$color-text:            #848484;
+$color-border:          #e3e3e3;
+$color-border2:         #c2c2c2;
+$color-title:           #222222;
+$color-background:      #e7e7e7;
+
+
+/* GENERAL */
+$header-height: 600px;
+
+$icon-width: 60px;
+$icon-height: 60px;
+$icon-socialmedia: 34px;
+$sprite: url('../imgs/sprite.png');

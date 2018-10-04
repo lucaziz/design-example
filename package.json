@@ -1,0 +1,27 @@
+{
+  "name": "design-example",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-nodeunit": "~2.0.0",
+    "grunt-contrib-qunit": "^3.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-includes": "^1.1.0"
+  },
+  "description": "Design Example",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.3"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Aziz",
+  "license": "ISC"
+}
